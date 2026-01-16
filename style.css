@@ -25,4 +25,14 @@ body {
  background-color: white;
  overflow: hidden; /* contain objects "on-screen" */
 }
-
+#scene-container {
+    background: url(Vergil\ chair.jpeg);
+    background-size: cover;
+    overflow: hidden;
+}
+#dante {
+    width: 90px;
+    position: relative;
+    top: 200px;
+    left: 500px;
+}
