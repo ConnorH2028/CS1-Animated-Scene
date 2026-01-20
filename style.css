@@ -35,4 +35,13 @@ body {
     position: relative;
     top: 200px;
     left: 500px;
+    animation: dante-move 10s infinite ease-in-out;
 }
+@keyframes dante-move {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(-200px,-40px);}
+    100% { transform: translate (-300px, -50px);}
+
+}
+
+
